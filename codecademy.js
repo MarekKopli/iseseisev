@@ -65,3 +65,22 @@ const callMyNightSky = () => {
   return 'Night Sky: ' + satellite + ', ' + stars + ', and ' + galaxy;
 }
 console.log(callMyNightSky())
+---------------------------------------------------------------------
+  //kelvin temperature 293
+const kelvin = 0;
+//celsius 273 degrees less
+let celsius = kelvin-273;
+//clesiuses temp
+var fahrenheit= celsius*(9/5)+32;
+//rounds up
+ fahrenheit = Math.floor(fahrenheit);
+ console.log(`The temperature is ${fahrenheit} degrees Fahrenheit.`);
+-----------------------------------------------------------------------------------
+  onst myAge = 10;
+let earlyYears = 2;
+earlyYears = earlyYears*10.5;
+let laterYears = myAge-2;
+laterYears = laterYears*4;
+myAgeInDogYears = earlyYears+laterYears;
+myName = 'Marek Kopli'.toLowerCase();
+console.log(`My name is ${myName}. I am ${myAge} years old in human years which is ${myAgeInDogYears} years old in dog years.`)

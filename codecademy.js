@@ -84,3 +84,41 @@ laterYears = laterYears*4;
 myAgeInDogYears = earlyYears+laterYears;
 myName = 'Marek Kopli'.toLowerCase();
 console.log(`My name is ${myName}. I am ${myAge} years old in human years which is ${myAgeInDogYears} years old in dog years.`)
+----------------------------------------------------------------------------------
+let userName = 'iiii'
+userName ? console.log(`Hello, ${userName}!`) : console.log('Hello!');
+let userQuestion = 'am i going to die'
+console.log(userQuestion)
+const randomNumber = Math.floor(Math.random()*8);
+let eightBall = ''
+switch  (randomNumber){
+  case 0:
+  eightBall='No';
+  break;
+  case 1:
+  eightBall ='It is certain';
+  break;
+  case 2:
+  eightBall = 'It is decidedly so';
+  break;
+  case 3:
+  eightBall ='Reply hazy try again';
+  break;
+  case 4:
+  eightBall ='Cannot predict now';
+  break;
+  case 5:
+  eightBall ='Do not count on it';
+  break;
+  case 6:
+  eightBall ='My sources say no';
+  break;
+  case 7:
+  eightBall ='Outlook not so good';
+  break;
+  case 8:
+  eightBall ='Signs point to yes';
+  break;
+}
+console.log(`The eight ball answered: ${eightBall}`);
+//output Hello, iiii! am i going to die? The eight ball answered: It is decidedly so

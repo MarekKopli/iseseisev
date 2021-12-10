@@ -1,0 +1,9 @@
+for (let i = 0; i < tellimus.length; i++) { 
+  console.log(tellimus[i].name);
+}
+for (let i = 0; i < tellimus.length; i++) { 
+  console.log(tellimus[i].price);
+}
+for (let i = 0; i < tellimus.length; i++) { 
+  console.log(tellimus[i].amount);
+}

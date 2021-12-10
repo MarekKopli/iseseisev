@@ -7,3 +7,15 @@ for (let i = 0; i < tellimus.length; i++) {
 for (let i = 0; i < tellimus.length; i++) { 
   console.log(tellimus[i].amount);
 }
+for (let i = 0; i < tellimus.length; i++) { 
+  console.log('nimi '+tellimus[i].name +', hind '+ tellimus[i].price+', kogus '+tellimus[i].amount);
+}
+
+console.log(tellimus.clientName+" "+tellimus.orderNumber)
+    let sum = 0;
+tellimus.rows.forEach((row) => {
+   sum += row.price * row.amount;
+});
+console.log("Summa:", sum);
+for(let toode of tellimus.rows)
+    console.log('nimi '+toode.name+',hind  '+toode.price+',kogus  '+toode.amount)

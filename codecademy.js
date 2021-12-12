@@ -143,4 +143,5 @@ else if (runnerAge< 18){
 --------------------------------------------------------------------------------
 // array asjad
 .push // lisa arraysse asju
-.pop // võtab arrayst ära
+.pop // võtab array tagant ära
+.shift // võtab array eest ära

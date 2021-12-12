@@ -140,3 +140,7 @@ else if (runnerAge>=18 && !registeredEarly){
 else if (runnerAge< 18){
   console.log(`Hello runner ${raceNumber} Your race will start 12:30 pm!`)
 }
+--------------------------------------------------------------------------------
+// array asjad
+.push // lisa arraysse asju
+.pop // võtab arrayst ära

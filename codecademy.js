@@ -145,3 +145,11 @@ else if (runnerAge< 18){
 .push // lisa arraysse asju
 .pop // võtab array tagant ära
 .shift // võtab array eest ära
+.unshift // paneb array ette
+
+console.log(nimi.slice(1, 4)) // võtab teatud asjad
+const groceryList = ['orange juice', 'bananas', 'coffee beans', 'brown rice', 'pasta', 'coconut oil', 'plantains'];
+console.log(groceryList.slice(1, 4));
+const pastaIndex = groceryList.indexOf('pasta')
+console.log(pastaIndex)
+------------------------------------------------------------------------------

@@ -153,3 +153,22 @@ console.log(groceryList.slice(1, 4));
 const pastaIndex = groceryList.indexOf('pasta')
 console.log(pastaIndex)
 ------------------------------------------------------------------------------
+//while loop
+const cards = ['diamond', 'spade', 'heart', 'club'];
+
+let currentCard;
+while (currentCard != 'spade') {
+currentCard= cards[Math.floor(Math.random() * 4)];
+  console.log(currentCard)
+}
+
+// do while loop 
+et cupsOfSugarNeeded = 2;
+let cupsAdded = 0;
+do{
+  cupsAdded++
+  console.log(cupsAdded + ' cup was added')
+} while (cupsAdded < cupsOfSugarNeeded);
+
+
+
